@@ -1,0 +1,6 @@
+export const PRIMARY_COLOR = "#0275d8"
+export const DANGER_COLOR = "#df4759"
+export const SUCCESS_COLOR = "#5cb85c"
+export const LOCK_COLOR = "#004f94"
+export const MALE_COLOR = "#004f94"
+export const FEMALE_COLOR = "#ffb4e5"
