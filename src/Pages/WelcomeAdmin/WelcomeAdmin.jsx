@@ -8,7 +8,7 @@ const WelcomeAdmin = () => {
     <>
         <NavigationBar />
         <div className='welcomeWrapper'>
-            <h3>Welcome Admin</h3>
+            <h3>Welcome to Admin Dashboard</h3>
         </div>
     </>
   )

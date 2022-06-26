@@ -1,0 +1,30 @@
+.placeCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartCardWrapper{
+    /* background-color: #bbb; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #777;
+}
+
+.productInfoWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.productImg {
+    width: 7rem;
+    height: 7rem;
+}
+
+.removeBtn{
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}

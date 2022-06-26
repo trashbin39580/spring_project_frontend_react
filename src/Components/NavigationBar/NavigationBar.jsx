@@ -46,12 +46,14 @@ const NavigationBar = () => {
                                 <Link to="/categories" style={{ textDecoration: "none", color: "#333" }}>Categories</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="http://localhost:3000/" onClick={() => {
+                                        window.location.href = 'http://localhost:3000/'
+                                    }}>
                                 <FontAwesomeIcon 
                                     icon={faRightFromBracket}
                                     style={{ marginRight: "7px" }}
                                 />
-                                <Link to="/logout" style={{ textDecoration: "none", color: "#333" }}>Logout</Link>
+                                <span style={{ textDecoration: "none", color: "#333" }}>Logout</span>
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>

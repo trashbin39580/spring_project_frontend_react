@@ -1,0 +1,15 @@
+/* .cartWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+} */
+
+.cartWrapper {
+    padding: 5rem;
+}
